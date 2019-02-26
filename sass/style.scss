@@ -6,3 +6,48 @@
 @import "section/registration_form";
 @import "pages/registration";
 
+body{
+    font-family: $brand-font;
+}
+
+header {
+     .sidebar{
+         ul{
+             li a{
+                line-height: 40px;
+                display: block;
+                padding: 0 ;
+                color: $main-color;
+                text-decoration: none;
+             }
+            padding: 0;
+            list-style-type: none;
+         }
+         height: 100%;
+         position: fixed;
+         top: 0;
+         left: 0;
+         background-color: $sidebar-background-color;
+         overflow-x: hidden;
+     }
+
+    }
+    .topbar{
+    ul {
+        li {
+            a {
+                line-height: 50px;
+                display: block;
+                padding: 0 20px;
+                color: $main-color;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            display:inline-block;
+        }
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+    }
+}
