@@ -426,16 +426,25 @@ header .sidebar {
   top: 0;
   left: 0;
   background-color: #191919;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  margin: 0 auto; }
   header .sidebar ul {
     padding: 0;
     list-style-type: none; }
     header .sidebar ul li a {
       line-height: 40px;
       display: block;
-      padding: 0;
+      padding: 0 20px;
       color: #a6a6a6;
       text-decoration: none; }
+      header .sidebar ul li a .logo {
+        padding: 10px 0;
+        height: 23px; }
+      header .sidebar ul li a .fa {
+        height: 15px;
+        width: 15px;
+        color: #a6a6a6;
+        padding-right: 10px; }
 
 .topbar ul {
   margin: 0 auto;
