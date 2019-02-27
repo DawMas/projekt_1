@@ -417,7 +417,8 @@ template {
   margin-left: 91.66%; }
 
 body {
-  font-family: "Open Sans", Helvetica, Arial; }
+  font-family: "Open Sans", Helvetica, Arial;
+  margin: 0; }
 
 header .sidebar {
   height: 100%;
@@ -444,11 +445,21 @@ header .sidebar {
   .topbar ul li {
     display: inline-block; }
     .topbar ul li a {
-      line-height: 50px;
       display: block;
-      padding: 0 20px;
+      padding: 0px 20px;
       color: #a6a6a6;
       text-decoration: none;
-      text-transform: uppercase; }
+      font-size: 20px;
+      line-height: 60px;
+      border-left: 2px solid; }
+      .topbar ul li a .fa {
+        height: 20px; }
+      .topbar ul li a .fa-vallet {
+        padding-right: 15px; }
+      .topbar ul li a .fa-arrow-down {
+        height: 10px;
+        padding-left: 15px; }
+      .topbar ul li a .fa-profile {
+        padding-right: 15px; }
 
 /*# sourceMappingURL=style.css.map */
