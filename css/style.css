@@ -427,7 +427,8 @@ header .sidebar {
   left: 0;
   background-color: #191919;
   overflow-x: hidden;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0; }
   header .sidebar ul {
     padding: 0;
     list-style-type: none; }
@@ -445,6 +446,15 @@ header .sidebar {
         width: 15px;
         color: #a6a6a6;
         padding-right: 10px; }
+      header .sidebar ul li a .fa-hamburger {
+        height: 20px;
+        width: 20px;
+        float: right;
+        padding: 10px 0; }
+      header .sidebar ul li a .fa-line {
+        border-bottom: 1px solid;
+        width: 100%;
+        padding: 0; }
 
 .topbar ul {
   margin: 0 auto;

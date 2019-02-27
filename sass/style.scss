@@ -26,6 +26,21 @@ header {
                      padding-right: 10px;
                      
                  }
+                 .fa-hamburger{
+                     height: 20px;
+                     width: 20px;
+                     float: right;
+                     padding: 10px 0;
+                 }
+                 .fa-line{
+                     border-bottom: 1px solid;
+                     width: 100%;
+                     padding: 0;
+                 }
+                 .manager{
+                     
+                 }
+                 
                 line-height: 40px;
                 display: block;
                 padding: 0 20px;
@@ -42,6 +57,7 @@ header {
          background-color: $sidebar-background-color;
          overflow-x: hidden;
          margin: 0 auto;
+         padding: 0;
      }
 
     }
