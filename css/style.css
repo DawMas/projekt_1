@@ -420,6 +420,11 @@ body {
   font-family: "Open Sans", Helvetica, Arial;
   margin: 0; }
 
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; }
+
 header .sidebar {
   height: 100%;
   position: fixed;
@@ -455,15 +460,20 @@ header .sidebar {
         border-bottom: 1px solid;
         width: 100%;
         padding: 0; }
-
-.topbar ul {
+      header .sidebar ul li a .manager {
+        padding: 20px 0; }
+      header .sidebar ul li a .fa-photo {
+        height: 45px;
+        width: 45px;
+        padding: 10px; }
+header .topbar ul {
   margin: 0 auto;
   padding: 0;
   list-style-type: none;
   float: right; }
-  .topbar ul li {
+  header .topbar ul li {
     display: inline-block; }
-    .topbar ul li a {
+    header .topbar ul li a {
       display: block;
       padding: 0px 20px;
       color: #a6a6a6;
@@ -471,14 +481,14 @@ header .sidebar {
       font-size: 20px;
       line-height: 60px;
       border-left: 2px solid; }
-      .topbar ul li a .fa {
+      header .topbar ul li a .fa {
         height: 20px; }
-      .topbar ul li a .fa-vallet {
+      header .topbar ul li a .fa-vallet {
         padding-right: 15px; }
-      .topbar ul li a .fa-arrow-down {
+      header .topbar ul li a .fa-arrow-down {
         height: 10px;
         padding-left: 15px; }
-      .topbar ul li a .fa-profile {
+      header .topbar ul li a .fa-profile {
         padding-right: 15px; }
 
 /*# sourceMappingURL=style.css.map */

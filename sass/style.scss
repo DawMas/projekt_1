@@ -10,6 +10,11 @@ body{
     font-family: $brand-font;
     margin: 0;
 }
+.container {
+    max-width:1200px;
+    width: 100%;
+    margin: 0 auto;
+}
 
 header {
      .sidebar{
@@ -38,9 +43,15 @@ header {
                      padding: 0;
                  }
                  .manager{
-                     
+                     padding: 20px 0;
+
                  }
-                 
+                 .fa-photo{
+                     height: 45px;
+                     width: 45px;
+                     padding: 10px;
+                    
+                 }
                 line-height: 40px;
                 display: block;
                 padding: 0 20px;
@@ -60,7 +71,7 @@ header {
          padding: 0;
      }
 
-    }
+    
     .topbar{
     ul {
         li {
@@ -94,4 +105,8 @@ header {
     list-style-type: none;
     float: right;
     }
-}
+    
+}}
+
+
+
