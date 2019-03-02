@@ -6,72 +6,19 @@
 @import "section/registration_form";
 @import "pages/registration";
 
+
 body{
     font-family: $brand-font;
-    margin: 0;
+    margin-top: 0;
 }
+
 .container {
     max-width:1200px;
     width: 100%;
-    margin: 0 auto;
+
 }
 
-header {
-     .sidebar{
-         ul{
-             li a{
-                 .logo{
-                     padding: 10px 0;
-                     height: 23px;
-                 }
-                 .fa{
-                     height: 15px;
-                     width: 15px;
-                     color: $main-color;
-                     padding-right: 10px;
-                     
-                 }
-                 .fa-hamburger{
-                     height: 20px;
-                     width: 20px;
-                     float: right;
-                     padding: 10px 0;
-                 }
-                 .fa-line{
-                     border-bottom: 1px solid;
-                     width: 100%;
-                     padding: 0;
-                 }
-                 .manager{
-                     padding: 20px 0;
-
-                 }
-                 .fa-photo{
-                     height: 45px;
-                     width: 45px;
-                     padding: 10px;
-                    
-                 }
-                line-height: 40px;
-                display: block;
-                padding: 0 20px;
-                color: $main-color;
-                text-decoration: none;
-             }
-            padding: 0;
-            list-style-type: none;
-         }
-         height: 100%;
-         position: fixed;
-         top: 0;
-         left: 0;
-         background-color: $sidebar-background-color;
-         overflow-x: hidden;
-         margin: 0 auto;
-         padding: 0;
-     }
-
-    
+header {   
     .topbar{
     ul {
         li {
@@ -100,13 +47,66 @@ header {
             }
             display:inline-block;
         }
-    margin: 0 auto;
+
     padding: 0;
     list-style-type: none;
     float: right;
     }
     
 }}
+.sidebar{
+    ul{
+        li a{
+            .logo{
+                padding: 10px 0;
+                height: 23px;
+            }
+            .fa{
+                height: 15px;
+                width: 15px;
+                color: $main-color;
+                padding-right: 10px;
+                
+            }
+            .fa-hamburger{
+                height: 20px;
+                width: 20px;
+                float: right;
+                padding: 10px 0;
+            }
+            .fa-line{
+                border-bottom: 1px solid;
+                width: 100%;
+                padding: 0;
+            }
+            .manager{
+                padding: 20px 0;
+
+            }
+            .fa-photo{
+                height: 45px;
+                width: 45px;
+                padding: 10px;
+               
+            }
+           line-height: 40px;
+           display: block;
+           padding: 0 20px;
+           color: $main-color;
+           text-decoration: none;
+        }
+       padding: 0;
+       list-style-type: none;
+    }
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $sidebar-background-color;
+    overflow-x: hidden;
+
+    padding: 0;
+}
 
 
 

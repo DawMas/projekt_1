@@ -418,56 +418,13 @@ template {
 
 body {
   font-family: "Open Sans", Helvetica, Arial;
-  margin: 0; }
+  margin-top: 0; }
 
 .container {
   max-width: 1200px;
-  width: 100%;
-  margin: 0 auto; }
+  width: 100%; }
 
-header .sidebar {
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #191919;
-  overflow-x: hidden;
-  margin: 0 auto;
-  padding: 0; }
-  header .sidebar ul {
-    padding: 0;
-    list-style-type: none; }
-    header .sidebar ul li a {
-      line-height: 40px;
-      display: block;
-      padding: 0 20px;
-      color: #a6a6a6;
-      text-decoration: none; }
-      header .sidebar ul li a .logo {
-        padding: 10px 0;
-        height: 23px; }
-      header .sidebar ul li a .fa {
-        height: 15px;
-        width: 15px;
-        color: #a6a6a6;
-        padding-right: 10px; }
-      header .sidebar ul li a .fa-hamburger {
-        height: 20px;
-        width: 20px;
-        float: right;
-        padding: 10px 0; }
-      header .sidebar ul li a .fa-line {
-        border-bottom: 1px solid;
-        width: 100%;
-        padding: 0; }
-      header .sidebar ul li a .manager {
-        padding: 20px 0; }
-      header .sidebar ul li a .fa-photo {
-        height: 45px;
-        width: 45px;
-        padding: 10px; }
 header .topbar ul {
-  margin: 0 auto;
   padding: 0;
   list-style-type: none;
   float: right; }
@@ -490,5 +447,46 @@ header .topbar ul {
         padding-left: 15px; }
       header .topbar ul li a .fa-profile {
         padding-right: 15px; }
+
+.sidebar {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #191919;
+  overflow-x: hidden;
+  padding: 0; }
+  .sidebar ul {
+    padding: 0;
+    list-style-type: none; }
+    .sidebar ul li a {
+      line-height: 40px;
+      display: block;
+      padding: 0 20px;
+      color: #a6a6a6;
+      text-decoration: none; }
+      .sidebar ul li a .logo {
+        padding: 10px 0;
+        height: 23px; }
+      .sidebar ul li a .fa {
+        height: 15px;
+        width: 15px;
+        color: #a6a6a6;
+        padding-right: 10px; }
+      .sidebar ul li a .fa-hamburger {
+        height: 20px;
+        width: 20px;
+        float: right;
+        padding: 10px 0; }
+      .sidebar ul li a .fa-line {
+        border-bottom: 1px solid;
+        width: 100%;
+        padding: 0; }
+      .sidebar ul li a .manager {
+        padding: 20px 0; }
+      .sidebar ul li a .fa-photo {
+        height: 45px;
+        width: 45px;
+        padding: 10px; }
 
 /*# sourceMappingURL=style.css.map */
