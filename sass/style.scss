@@ -6,7 +6,9 @@
 @import "section/registration_form";
 @import "pages/registration";
 
-
+* {
+    box-sizing: border-box;
+}
 body{
     font-family: $brand-font;
     margin-top: 0;
@@ -23,9 +25,6 @@ header {
     ul {
         li {
             a {
-                .fa{
-                    height: 20px;
-                }
                 .fa-vallet{
                     padding-right: 15px;
                 }
@@ -36,7 +35,6 @@ header {
                 .fa-profile{
                     padding-right: 15px;
                 }
-    
                 display: block;
                 padding: 0px 20px;
                 color: $main-color;
@@ -47,18 +45,21 @@ header {
             }
             display:inline-block;
         }
-
     padding: 0;
+    margin-top: 0;
     list-style-type: none;
     float: right;
     }
-    
-}}
+   
+}
+height: 60px;
+/*background-color: black;*/
+}
 .sidebar{
     ul{
         li a{
             .logo{
-                padding: 10px 0;
+                padding:  0;
                 height: 23px;
             }
             .fa{
@@ -72,7 +73,7 @@ header {
                 height: 20px;
                 width: 20px;
                 float: right;
-                padding: 10px 0;
+                padding: 0;
             }
             .fa-line{
                 border-bottom: 1px solid;
@@ -104,9 +105,73 @@ header {
     left: 0;
     background-color: $sidebar-background-color;
     overflow-x: hidden;
-
     padding: 0;
 }
+main{
+    background-color: $main-background-color;
+}
+/*.flex-container{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}*/
+.statistics{
+    color: $main-color;
+   
+    .paragraph{
+        margin: 0;
+        padding: 15px;
+        border-bottom: 2px solid;
+        text-transform: uppercase;
+        font-size: $paragraph-font-size;
+    }
+    .dates{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 30px;
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .row-border{
+        border: 2px solid;
+        border-radius: 6px;
+        margin: 0 15px;
+    }
+    .date-left{
+        padding: 15px 60px 15px 15px;
+    }
+    .date-right{
+        padding: 15px 60px 15px 15px;
+        border-left: 1px solid;
+    }
+    .icon {
+        padding: 15px;
+    }
+    .icon-refresh{
+        background-color: $button-background-color;
+    }
+    .informations{
+        .info-box{
+            display: flex;
+            justify-content: space-between;
+        }
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    
+    background-color: white;
+ 
+}
+
 
 
 
