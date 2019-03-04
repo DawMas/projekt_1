@@ -510,37 +510,52 @@ main {
   .statistics .paragraph {
     margin: 0;
     padding: 15px;
-    border-bottom: 2px solid;
+    border-bottom: 2px solid #e3e3e3;
     text-transform: uppercase;
     font-size: 16px; }
   .statistics .dates {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding: 30px; }
+    padding: 30px;
+    font-size: 16px;
+    border-bottom: 2px solid #e3e3e3; }
+    .statistics .dates .date-left {
+      padding: 0 60px 0 15px;
+      color: #333333; }
+    .statistics .dates .date-right {
+      padding: 0 60px 0 15px;
+      border-left: 1px solid #e3e3e3;
+      color: #333333; }
+    .statistics .dates .icon {
+      padding-right: 15px;
+      border: 1px solid white;
+      border-radius: 5px; }
+    .statistics .dates .icon-refresh {
+      line-height: 40px;
+      background-color: #f58220;
+      font-size: 16px;
+      padding: 15px; }
+    .statistics .dates .row-border {
+      border: 2px solid #e3e3e3;
+      border-radius: 6px;
+      margin: 0 15px; }
   .statistics .row {
     display: flex;
-    justify-content: center; }
-  .statistics .row-border {
-    border: 2px solid;
-    border-radius: 6px;
-    margin: 0 15px; }
-  .statistics .date-left {
-    padding: 15px 60px 15px 15px; }
-  .statistics .date-right {
-    padding: 15px 60px 15px 15px;
-    border-left: 1px solid; }
-  .statistics .icon {
-    padding: 15px; }
-  .statistics .icon-refresh {
-    background-color: #f58220; }
+    justify-content: space-between;
+    line-height: 40px; }
   .statistics .informations {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    padding: 30px 0; }
+    .statistics .informations .info-number {
+      color: #333333; }
     .statistics .informations .info-box {
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      border-bottom: 2px solid #e3e3e3; }
+    .statistics .informations .chart-paragraph {
+      padding: 60px 0 30px 0; }
 
 /*# sourceMappingURL=style.css.map */
