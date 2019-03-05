@@ -108,6 +108,7 @@ height: 60px;
     padding: 0;
 }
 main{
+    color: $main-color;
     background-color: $main-background-color;
 }
 /*.flex-container{
@@ -221,6 +222,11 @@ main{
                 background-color: $border-color;
             }
         }
+        .chart{
+            display:flex;
+            justify-content: center;
+            padding: 30px 0;
+        }
         display: flex;
         justify-content: center;
         flex-direction: row;
@@ -232,6 +238,27 @@ main{
     
     background-color: white;
  
+}
+.table{
+    .paragraph{
+        margin: 0;
+        padding: 15px;
+        border-bottom: 2px solid $border-color;
+        text-transform: uppercase;
+        font-size: $paragraph-font-size;
+    }
+    .table-column{
+        .table-links{
+            display: flex;
+            justify-content: space-between;
+            line-height: 40px;
+            border-bottom: 2px solid $main-color;
+
+        }
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
 
 

@@ -495,6 +495,7 @@ header {
         padding: 10px; }
 
 main {
+  color: #a6a6a6;
   background-color: #f5f5f2; }
 
 /*.flex-container{
@@ -586,5 +587,25 @@ main {
         background-color: #e3e3e3; }
       .statistics .informations .legend-main .legend-ftd {
         background-color: #e3e3e3; }
+    .statistics .informations .chart {
+      display: flex;
+      justify-content: center;
+      padding: 30px 0; }
+
+.table .paragraph {
+  margin: 0;
+  padding: 15px;
+  border-bottom: 2px solid #e3e3e3;
+  text-transform: uppercase;
+  font-size: 16px; }
+.table .table-column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .table .table-column .table-links {
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+    border-bottom: 2px solid #a6a6a6; }
 
 /*# sourceMappingURL=style.css.map */
