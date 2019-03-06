@@ -13,12 +13,24 @@ body{
     font-family: $brand-font;
     margin-top: 0;
 }
+main{
+    color: $main-color;
+    background-color: $main-color;
+        
+    }
+    
+
 
 .container {
     max-width:1200px;
     width: 100%;
+    background-color: white;
+    border: 10px solid $main-color;
+        
+    }
+   
 
-}
+
 
 header {   
     .topbar{
@@ -107,10 +119,7 @@ height: 60px;
     overflow-x: hidden;
     padding: 0;
 }
-main{
-    color: $main-color;
-    background-color: $main-background-color;
-}
+
 
 .statistics{
     color: $main-color;
@@ -230,10 +239,11 @@ main{
     }
     
     
-    background-color: white;
+   
  
 }
 .table{
+    
     .paragraph{
         margin: 0;
         padding: 15px;
