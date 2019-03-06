@@ -498,13 +498,6 @@ main {
   color: #a6a6a6;
   background-color: #f5f5f2; }
 
-/*.flex-container{
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}*/
 .statistics {
   color: #a6a6a6;
   background-color: white; }
@@ -598,14 +591,48 @@ main {
   border-bottom: 2px solid #e3e3e3;
   text-transform: uppercase;
   font-size: 16px; }
-.table .table-column {
+
+.table-column {
+  display: -webkit-flex;
   display: flex;
   justify-content: center;
   flex-direction: column; }
-  .table .table-column .table-links {
+  .table-column .table-links {
     display: flex;
     justify-content: space-between;
     line-height: 40px;
-    border-bottom: 2px solid #a6a6a6; }
+    border-bottom: 2px solid #e3e3e3; }
+    .table-column .table-links .name-link {
+      width: 45%; }
+    .table-column .table-links .link {
+      width: 30%; }
+    .table-column .table-links .icon-link {
+      width: 25%;
+      text-align: right; }
+    .table-column .table-links .icon-trash {
+      display: none; }
+    .table-column .table-links .icon-links {
+      display: none; }
+  .table-column :hover {
+    background-color: #b1bfbf; }
+    .table-column :hover .icon-trash {
+      display: inline-block;
+      padding: 0 25px;
+      text-decoration: none; }
+    .table-column :hover .icon-links {
+      display: inline-block;
+      color: #f58220;
+      text-decoration: none; }
+
+.button {
+  line-height: 40px;
+  margin: 25px auto;
+  background-color: #f58220;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 0 25px; }
+  .button :hover {
+    background-color: #ffa200; }
 
 /*# sourceMappingURL=style.css.map */

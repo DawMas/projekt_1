@@ -111,13 +111,7 @@ main{
     color: $main-color;
     background-color: $main-background-color;
 }
-/*.flex-container{
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-}*/
 .statistics{
     color: $main-color;
    
@@ -247,18 +241,69 @@ main{
         text-transform: uppercase;
         font-size: $paragraph-font-size;
     }
+    
+    }
     .table-column{
         .table-links{
+            .name-link{
+                width: 45%;
+            }
+           
+            .link{
+                width: 30%;
+                
+               
+            }
+            .icon-link{
+                width: 25%;
+                text-align: right;
+            }
+            .icon-trash{
+                display: none;
+                
+            }
+            .icon-links{
+                display: none;
+            }
             display: flex;
             justify-content: space-between;
             line-height: 40px;
-            border-bottom: 2px solid $main-color;
+            border-bottom: 2px solid $border-color;
+           
 
         }
+        display: -webkit-flex;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        :hover{
+            .icon-trash{
+                display: inline-block;
+                padding: 0 25px;
+                text-decoration: none;
+                
+            }
+            .icon-links{
+                display: inline-block;
+                color: $button-background-color;
+                text-decoration: none;
+            }
+            
+            background-color: $table-hover-color;
+        }
     }
+    .button{
+        line-height: 40px;
+        margin: 25px auto;
+        background-color: $button-background-color;
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        padding: 0 25px;
+        :hover{
+            background-color: #ffa200;
+        }
+
 }
 
 
