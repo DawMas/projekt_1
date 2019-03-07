@@ -436,28 +436,37 @@ main {
 header {
   height: 60px;
   /*background-color: black;*/ }
-  header .topbar ul {
-    padding: 0;
-    margin-top: 0;
-    list-style-type: none;
-    float: right; }
-    header .topbar ul li {
-      display: inline-block; }
+  header .topbar {
+    background-color: white; }
+    header .topbar ul {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0;
+      margin-top: 0;
+      list-style-type: none; }
+      header .topbar ul li .user {
+        font-size: 13px;
+        color: #56819f; }
       header .topbar ul li a {
-        display: block;
-        padding: 0px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
         color: #a6a6a6;
         text-decoration: none;
-        font-size: 20px;
-        line-height: 60px;
-        border-left: 2px solid; }
+        height: 60px;
+        border-left: 2px solid #a6a6a6; }
         header .topbar ul li a .fa-vallet {
-          padding-right: 15px; }
+          padding-right: 15px;
+          margin: 20px 0; }
         header .topbar ul li a .fa-arrow-down {
           height: 10px;
           padding-left: 15px; }
         header .topbar ul li a .fa-profile {
-          padding-right: 15px; }
+          padding-right: 15px;
+          font-size: 20px;
+          color: #a6a6a6; }
 
 .sidebar {
   height: 100%;
