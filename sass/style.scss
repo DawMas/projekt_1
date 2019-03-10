@@ -33,8 +33,7 @@ main{
 
 
 header {   
-    .topbar{
-        
+    .topbar{ 
     ul {
         li {
             .user{
@@ -42,7 +41,6 @@ header {
                 color: $topbar-user-color;
             }
             a {
-                
                 .fa-vallet{
                     padding-right: 15px;
                    
@@ -68,6 +66,10 @@ header {
             }
            
         }    
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        max-width: 1200px;;
     display: flex;
     justify-content: flex-end;
     align-items: center;
