@@ -483,6 +483,10 @@ header {
   .sidebar ul {
     padding: 0;
     list-style-type: none; }
+    .sidebar ul .row-hover :hover {
+      background-color: #464646;
+      color: white;
+      border-left: 2px solid #f58220; }
     .sidebar ul li a {
       line-height: 40px;
       display: block;
@@ -509,9 +513,11 @@ header {
       .sidebar ul li a .manager {
         padding: 20px 0; }
       .sidebar ul li a .fa-photo {
-        height: 45px;
-        width: 45px;
-        padding: 10px; }
+        height: 40px;
+        width: 40px;
+        padding-right: 0;
+        border: 1px solid #191919;
+        border-radius: 50%; }
 
 .statistics {
   color: #a6a6a6; }
@@ -610,7 +616,8 @@ header {
   display: -webkit-flex;
   display: flex;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  text-decoration: none; }
   .table-column .table-links {
     display: flex;
     justify-content: space-between;
@@ -619,7 +626,11 @@ header {
     .table-column .table-links .name-link {
       width: 45%; }
     .table-column .table-links .link {
-      width: 30%; }
+      width: 30%;
+      color: #80bfca; }
+      .table-column .table-links .link a {
+        text-decoration: none;
+        color: #80bfca; }
     .table-column .table-links .icon-link {
       width: 25%;
       text-align: right; }
@@ -632,7 +643,8 @@ header {
     .table-column :hover .icon-trash {
       display: inline-block;
       padding: 0 25px;
-      text-decoration: none; }
+      text-decoration: none;
+      color: #a6a6a6; }
     .table-column :hover .icon-links {
       display: inline-block;
       color: #f58220;

@@ -36,11 +36,13 @@ header {
     .topbar{ 
     ul {
         li {
+            
             .user{
                 font-size: $user-font-size;
                 color: $topbar-user-color;
             }
             a {
+                
                 .fa-vallet{
                     padding-right: 15px;
                    
@@ -87,7 +89,16 @@ height: 60px;
 }
 .sidebar{
     ul{
+        .row-hover{
+            :hover{
+                background-color: #464646;
+                color: white;
+                border-left: 2px solid $button-background-color;
+                
+            }
+        }
         li a{
+            
             .logo{
                 padding:  0;
                 height: 23px;
@@ -115,17 +126,21 @@ height: 60px;
 
             }
             .fa-photo{
-                height: 45px;
-                width: 45px;
-                padding: 10px;
+                height: 40px;
+                width: 40px;
+                padding-right: 0;
+                border: 1px solid $sidebar-background-color;
+                border-radius: 50%;
                
             }
+           
            line-height: 40px;
            display: block;
            padding: 0 20px;
            color: $main-color;
            text-decoration: none;
         }
+        
        padding: 0;
        list-style-type: none;
     }
@@ -279,7 +294,11 @@ height: 60px;
            
             .link{
                 width: 30%;
-                
+                color: #80bfca;
+                a{
+                text-decoration: none;
+                color: #80bfca;
+                }
                
             }
             .icon-link{
@@ -304,11 +323,13 @@ height: 60px;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        text-decoration: none;
         :hover{
             .icon-trash{
                 display: inline-block;
                 padding: 0 25px;
                 text-decoration: none;
+                color: $main-color;
                 
             }
             .icon-links{
