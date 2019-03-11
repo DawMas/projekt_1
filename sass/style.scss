@@ -11,11 +11,13 @@
 }
 body{
     font-family: $brand-font;
-    margin-top: 0;
+
+
 }
 main{
     color: $main-color;
     background-color: $main-color;
+
         
     }
     
@@ -23,10 +25,7 @@ main{
 
 .container {
     max-width:1200px;
-    width: 100%;
-    background-color: white;
-    border: 10px solid $main-color;
-        
+   
     }
    
 
@@ -67,18 +66,18 @@ header {
                 border-left: 2px solid $main-color;
             }
            
-        }    
+        } 
         position: fixed;
         background-color: white;
-        width: 100%;
-        max-width: 1200px;;
+       width:100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 0;
-    margin-top: 0;
+    margin: 0 auto;
     list-style-type: none;   
-    }
+    }   
+     
     
     background-color: white;
    
@@ -89,7 +88,7 @@ height: 60px;
 }
 .sidebar{
     ul{
-        .row-hover{
+        .row-hover {
             :hover{
                 background-color: #464646;
                 color: white;
@@ -97,13 +96,22 @@ height: 60px;
                 
             }
         }
-        li a{
-            
-            .logo{
+        li{
+            .a-photo{
+                display: flex;
+                align-items: center;
+                color: $topbar-user-color;
+            }
+        } 
+        a{
+               .logo{
                 padding:  0;
                 height: 23px;
             }
             .fa{
+                :hover{
+                    color:white;
+                }
                 height: 15px;
                 width: 15px;
                 color: $main-color;
@@ -128,7 +136,7 @@ height: 60px;
             .fa-photo{
                 height: 40px;
                 width: 40px;
-                padding-right: 0;
+                margin-right: 10px;
                 border: 1px solid $sidebar-background-color;
                 border-radius: 50%;
                
@@ -139,6 +147,7 @@ height: 60px;
            padding: 0 20px;
            color: $main-color;
            text-decoration: none;
+
         }
         
        padding: 0;
@@ -155,6 +164,8 @@ height: 60px;
 
 
 .statistics{
+    background-color: white;
+    border: 10px solid $main-color;
     color: $main-color;
    
     .paragraph{
@@ -276,6 +287,8 @@ height: 60px;
  
 }
 .table{
+    background-color: white;
+    border: 10px solid $main-color;
     
     .paragraph{
         margin: 0;
