@@ -342,7 +342,43 @@ template {
     width: 91.66%; }
 
   .col-s-12 {
-    width: 100%; } }
+    width: 100%; }
+
+  .col-s-offset-0 {
+    margin-left: 0; }
+
+  .col-s-offset-1 {
+    margin-left: 8.33%; }
+
+  .col-s-offset-2 {
+    margin-left: 16.66%; }
+
+  .col-s-offset-3 {
+    margin-left: 25%; }
+
+  .col-s-offset-4 {
+    margin-left: 33.33%; }
+
+  .col-s-offset-5 {
+    margin-left: 41.66%; }
+
+  .col-s-offset-6 {
+    margin-left: 50%; }
+
+  .col-s-offset-7 {
+    margin-left: 58.33%; }
+
+  .col-s-offset-8 {
+    margin-left: 66.66%; }
+
+  .col-s-offset-9 {
+    margin-left: 75%; }
+
+  .col-s-offset-10 {
+    margin-left: 83.33%; }
+
+  .col-s-offset-11 {
+    margin-left: 91.66%; } }
 @media (min-width: 768px) {
   /* For desktop: */
   .col-m-1 {
@@ -379,43 +415,43 @@ template {
     width: 91.66%; }
 
   .col-m-12 {
-    width: 100%; } }
-.col-offset-0 {
-  margin-left: 0; }
+    width: 100%; }
 
-.col-offset-1 {
-  margin-left: 8.33%; }
+  .col-m-offset-0 {
+    margin-left: 0; }
 
-.col-offset-2 {
-  margin-left: 16.66%; }
+  .col-m-offset-1 {
+    margin-left: 8.33%; }
 
-.col-offset-3 {
-  margin-left: 25%; }
+  .col-m-offset-2 {
+    margin-left: 16.66%; }
 
-.col-offset-4 {
-  margin-left: 33.33%; }
+  .col-m-offset-3 {
+    margin-left: 25%; }
 
-.col-offset-5 {
-  margin-left: 41.66%; }
+  .col-m-offset-4 {
+    margin-left: 33.33%; }
 
-.col-offset-6 {
-  margin-left: 50%; }
+  .col-m-offset-5 {
+    margin-left: 41.66%; }
 
-.col-offset-7 {
-  margin-left: 58.33%; }
+  .col-m-offset-6 {
+    margin-left: 50%; }
 
-.col-offset-8 {
-  margin-left: 66.66%; }
+  .col-m-offset-7 {
+    margin-left: 58.33%; }
 
-.col-offset-9 {
-  margin-left: 75%; }
+  .col-m-offset-8 {
+    margin-left: 66.66%; }
 
-.col-offset-10 {
-  margin-left: 83.33%; }
+  .col-m-offset-9 {
+    margin-left: 75%; }
 
-.col-offset-11 {
-  margin-left: 91.66%; }
+  .col-m-offset-10 {
+    margin-left: 83.33%; }
 
+  .col-m-offset-11 {
+    margin-left: 91.66%; } }
 * {
   box-sizing: border-box; }
 
@@ -666,5 +702,28 @@ header {
   padding: 0 25px; }
   .button :hover {
     background-color: #ffa200; }
+
+@media (max-width: 767px) {
+  /* For tablets: */
+  .sidebar {
+    display: none; }
+
+  .sidebar-phone {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #191919;
+    height: 60px; }
+    .sidebar-phone img {
+      height: 80%;
+      width: auto;
+      margin: auto 0; }
+
+  header {
+    display: none; } }
+@media (min-width: 768px) {
+  /* For desktop: */
+  .sidebar-phone {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

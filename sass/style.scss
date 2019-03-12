@@ -16,21 +16,11 @@ body{
 }
 main{
     color: $main-color;
-    background-color: $main-color;
-
-        
+    background-color: $main-color;    
     }
-    
-
-
 .container {
     max-width:1200px;
-   
     }
-   
-
-
-
 header {   
     .topbar{ 
     ul {
@@ -368,6 +358,39 @@ height: 60px;
 
 }
 
+
+@media (max-width: 767px){
+    /* For tablets: */
+    .sidebar {
+        display: none;
+    }
+    .sidebar-phone{
+        
+        img{
+            height: 80%;
+            width: auto;
+            margin: auto 0;
+        }
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        background-color: $sidebar-background-color;
+        height: 60px;
+       
+
+    }
+    header {
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px) {
+    /* For desktop: */
+    .sidebar-phone {
+        display: none;
+    }
+}
 
 
 
