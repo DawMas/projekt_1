@@ -1,2 +1,2 @@
 # projekt_1
-first project on my kodilla
+https://dawmas.github.io/projekt_1/
