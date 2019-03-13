@@ -465,6 +465,9 @@ main {
 .container {
   max-width: 1200px; }
 
+.menu {
+  display: none; }
+
 header {
   height: 60px;
   /*background-color: black;*/ }
@@ -719,6 +722,54 @@ header {
       height: 80%;
       width: auto;
       margin: auto 0; }
+
+  .menu {
+    display: none; }
+
+  .show {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #191919;
+    color: white;
+    margin: 0;
+    padding: 0; }
+    .show .topbar-menu {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-size: 20px;
+      text-decoration: none;
+      list-style-type: none; }
+      .show .topbar-menu li a {
+        border-left: 1px solid #a6a6a6;
+        border-right: 1px solid #a6a6a6;
+        color: #a6a6a6;
+        font-size: 25px;
+        padding: 0 10px;
+        text-decoration: none;
+        list-style-type: none;
+        line-height: 40px; }
+        .show .topbar-menu li a .fa {
+          padding: 0 5px; }
+      .show .topbar-menu :hover {
+        background-color: #464646;
+        color: white; }
+    .show .row-hover a {
+      line-height: 50px;
+      padding: 5px 60px;
+      color: #a6a6a6;
+      display: flex;
+      justify-content: space-between;
+      font-size: 28px;
+      text-decoration: none;
+      list-style-type: none; }
+    .show .row-hover:hover {
+      background-color: #464646;
+      color: white;
+      border-left: 2px solid #f58220;
+      border-right: 2px solid #f58220; }
 
   header {
     display: none; } }

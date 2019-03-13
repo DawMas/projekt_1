@@ -21,6 +21,9 @@ main{
 .container {
     max-width:1200px;
     }
+.menu{
+    display: none;
+}
 header {   
     .topbar{ 
     ul {
@@ -370,7 +373,6 @@ height: 60px;
         display: none;
     }
     .sidebar-phone{
-        
         img{
             height: 80%;
             width: auto;
@@ -381,8 +383,71 @@ height: 60px;
         align-content: center;
         background-color: $sidebar-background-color;
         height: 60px;
-       
-
+    }
+    .menu{
+        display: none;
+    
+        
+    }
+    .show{
+        .topbar-menu{
+            li a{
+                
+              
+                .fa {
+                    padding: 0 5px;
+                    
+                }
+                border-left: 1px solid $main-color;
+                border-right: 1px solid $main-color;
+                color: $main-color;
+                font-size: 25px;
+                padding: 0 10px;
+                
+                text-decoration: none;
+                list-style-type: none;
+                line-height: 40px;
+                
+            }
+            :hover{
+                background-color: #464646;
+        color: white;
+            }
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            font-size: 20px;
+            text-decoration: none;
+            list-style-type: none;
+          
+        }
+        .row-hover a{
+            
+            line-height: 50px;
+           padding: 5px 60px;
+            color: $main-color;
+            display: flex;
+            justify-content: space-between;
+            font-size: 28px;
+            text-decoration: none;
+        list-style-type: none;
+        
+        }
+        .row-hover:hover{
+            background-color: #464646;
+            color: white;
+            border-left: 2px solid $button-background-color;
+            border-right: 2px solid $button-background-color; 
+        }
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: $sidebar-background-color;
+        color: white;
+        
+        margin: 0;
+        padding: 0;
     }
     header {
         display: none;
