@@ -224,7 +224,7 @@ height: 60px;
         }
         .legend-main{
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             
             padding: 30px 0;
             .legend{
@@ -232,7 +232,6 @@ height: 60px;
                 justify-content: space-around;
                 align-items: center;
                 padding: 0 20px;
-                margin: 0 40px;
                 line-height: 40px;
                 .dot{
                     height: 20px;
@@ -260,13 +259,19 @@ height: 60px;
             }
         }
         .chart{
+            img{
+            
+             max-width: 90%;
+             height: auto;
+            }
             display:flex;
             justify-content: center;
+            
             padding: 30px 0;
         }
         display: flex;
         justify-content: center;
-        flex-direction: row;
+        
         flex-direction: column;
         
         padding: 30px 0;
