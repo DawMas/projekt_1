@@ -112,11 +112,10 @@ height: 60px;
                 padding-right: 10px;
                 
             }
-            .fa-hamburger{
-                height: 20px;
-                width: 20px;
+            .fas{
+                font-size: 25px;
                 float: right;
-                padding: 0;
+                
             }
             .fa-line{
                 border-bottom: 1px solid;
@@ -379,6 +378,15 @@ height: 60px;
             width: auto;
             margin: auto 0;
         }
+        a{
+            
+            font-size: 40px;
+            text-decoration: none;
+                list-style-type: none;
+            color: $main-color;
+            padding: 10px 0;
+        }
+        
         display: flex;
         justify-content: space-around;
         align-content: center;

@@ -641,11 +641,9 @@ header {
         padding-right: 10px; }
         .sidebar ul a .fa :hover {
           color: white; }
-      .sidebar ul a .fa-hamburger {
-        height: 20px;
-        width: 20px;
-        float: right;
-        padding: 0; }
+      .sidebar ul a .fas {
+        font-size: 25px;
+        float: right; }
       .sidebar ul a .fa-line {
         border-bottom: 1px solid;
         width: 100%;
@@ -822,6 +820,12 @@ header {
       height: 80%;
       width: auto;
       margin: auto 0; }
+    .sidebar-phone a {
+      font-size: 40px;
+      text-decoration: none;
+      list-style-type: none;
+      color: #a6a6a6;
+      padding: 10px 0; }
 
   .menu {
     display: none; }
